@@ -1,0 +1,9 @@
+{
+  "cucumberautocomplete.steps": [
+    "steps/*.py"
+  ],
+  "cucumberautocomplete.syncfeatures": "*.feature",
+  "cucumberautocomplete.strictGherkinCompletion": true,
+  "cucumberautocomplete.stepsInvariants": true,
+  "cucumberautocomplete.smartSnippets": true
+}
