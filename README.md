@@ -23,7 +23,7 @@ pytest .\tests\api\test_create_project_with_two_character_name -s
 pytest .\tests\api\test_create_project_without_token -s
 
 
-######## CONSULTAR API DE PETSTORE
+######## CONSULTAR API DE ProjectServices
 Este proyecto contiene pruebas automatizadas de API utilizando Playwright con Python. Se realizan operaciones de tipo CRUD (Crear, Leer, Actualizar) sobre los servicios de la API ProjectServices.
 
 Requisitos Previos
@@ -42,7 +42,6 @@ pytest.ini: Archivo de configuración para pytest.
 Ejecución de Pruebas
 Para ejecutar las pruebas de la test/API, accede a la caperta API usa el siguiente comando:
 
-pytest -s test_api_petstore.py
-Nota Importante
+pytest .\tests\api\test_create_project -s
 
 Jorge Anderson Montoya
